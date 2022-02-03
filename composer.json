@@ -1,5 +1,5 @@
 {
-  "name": "modulomienvio/magentostore",
+  "name": "mienviomagento/mienviogeneral",
   "description": "Magento 2 Module Test 2",
   "keywords": [
     "magento",
@@ -25,7 +25,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "MienvioTest2\\ModuleTestPlugin2\\": ""
+      "MienvioMagento\\MienvioGeneral\\": ""
     }
   }
 }
