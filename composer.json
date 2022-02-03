@@ -1,16 +1,17 @@
 {
-  "name": "mienvioplugin/magentomodule",
-  "description": "Magento 2 Module to use the functionality's Mienvio in your store",
+  "name": "mienviotest/module2test",
+  "description": "Magento 2 Module Test 2",
   "keywords": [
     "magento",
     "mienvio"
   ],
   "require": {
-    "php": ">=7.2.0"    
+    "php": ">=7.2.0",
+    "magento/framework": "*"
   },
   "license": "MIT",
   "type": "magento2-module",
-  "version": "1.0.1",
+  "version": "1.0.3",
   "authors": [
     {
       "name": "Mienvio",
@@ -24,7 +25,7 @@
       "registration.php"
     ],
     "psr-4": {
-      "MienvioPlugin\\MagentoModule\\": ""
+      "MienvioTest2\\ModuleTestPlugin2\\": ""
     }
   }
 }
