@@ -11,7 +11,7 @@
   },
   "license": "MIT",
   "type": "magento2-module",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "authors": [
     {
       "name": "Mienvio",
@@ -22,10 +22,10 @@
   ],
   "autoload": {
     "files": [
-      "registration.php"
+      "MienvioGeneral/registration.php"
     ],
     "psr-4": {
-      "MienvioMagento\\MienvioGeneral\\": ""
+      "MienvioMagento\\MienvioGeneral\\": "MienvioGeneral"
     }
   }
 }
