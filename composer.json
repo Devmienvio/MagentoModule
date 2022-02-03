@@ -1,0 +1,30 @@
+{
+  "name": "mienvioplugin/magentomodule",
+  "description": "Magento 2 Module to use the functionality's Mienvio in your store",
+  "keywords": [
+    "magento",
+    "mienvio"
+  ],
+  "require": {
+    "php": ">=7.2.0"    
+  },
+  "license": "MIT",
+  "type": "magento2-module",
+  "version": "1.0.1",
+  "authors": [
+    {
+      "name": "Mienvio",
+      "email": "dev@mienvio.mx",
+      "homepage": "https://www.mienvio.com",
+      "role": "Developer Team"
+    }
+  ],
+  "autoload": {
+    "files": [
+      "registration.php"
+    ],
+    "psr-4": {
+      "MienvioPlugin\\MagentoModule\\": ""
+    }
+  }
+}
